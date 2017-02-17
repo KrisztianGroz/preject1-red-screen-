@@ -3,10 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>project 1</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <section id="justPika" >
+    </section>
+    <!-- <header>
+      <span>
+      </span>
+    </header> -->
+    <section id="startScreen">
+        <h1 class="startH1">Welcome to Kioku Zen Memory Game</h1>
+          <a class="startList" id="startGame" href="#gameBoard">Start the Game</a>
+          <a class="startList" href="#score">Check the High Score</a>
+          <a class="startList" > Change the Music</a>
+    </section>
 
-  </body>
+    <section class="beyond">
+        <p>Feel the Zeen Feel the Zeen Zen zen </p>
+    </section>
+
+    <section id="gameBoard">
+      <ul>
+      </ul>
+        <a class="gameDisplay"> Matches </a>
+        <a class="score"></a>
+        <a class="gameDisplay"> Times clicked </a>
+        <a class="gameDisplay" id="clickCounter"></a>
+        <a class="gameDisplay" > Time</a>
+        <a class="gameDisplay" id="timeDisplay"></a>
+
+    </section>
+
+    <section class="beyond">
+      <p>Feel the Zeen Feel the Zeen Zen zen </p>
+    </section>
+
+    <section id="score">
+      <h1 class="scoreH1">High Scores</h1>
+        <div clas = "scoreList" > Memo Sensei 100x
+        </div>
+          <a class="scoreList " href="#startScreen">Back to the title</a>
+
+    </section>
+    <audio class="flip" src="audio/flip.mp4"></audio>
+    <audio class="pikachu" src="audio/pikachu.wav"></audio>
+    <audio class="pika" src="audio/pika.wav"></audio>
+    <audio class="zenSong" src="audio/mainTr.mp4"></audio>
+
+
+</body>
 </html>
